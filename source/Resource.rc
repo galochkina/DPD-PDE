@@ -1,0 +1,737 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Croatian (Croatia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HRV)
+LANGUAGE LANG_CROATIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TRANS DIALOGEX 0, 0, 695, 277
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Transformator"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_IN_RHO,43,27,95,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IN_D,43,66,95,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IN_U,43,107,95,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IN_NY,43,126,95,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IN_M,43,204,95,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IN_G,43,166,95,14,ES_AUTOHSCROLL
+    LTEXT           "Length (m)",IDC_STATIC,270,33,36,8
+    CONTROL         "meter",IDC_FM,"Button",BS_AUTORADIOBUTTON | WS_GROUP,270,49,56,10
+    CONTROL         "centi (-2)",IDC_FM_CENTI,"Button",BS_AUTORADIOBUTTON,270,71,56,10
+    CONTROL         "mili (-3)",IDC_FM_MILI,"Button",BS_AUTORADIOBUTTON,270,89,56,10
+    CONTROL         "micro (-6)",IDC_FM_MICRO,"Button",BS_AUTORADIOBUTTON,270,108,56,10
+    CONTROL         "nano (-9)",IDC_FM_NANO,"Button",BS_AUTORADIOBUTTON,270,129,56,10
+    CONTROL         "pico (-12)",IDC_FM_PICO,"Button",BS_AUTORADIOBUTTON,270,148,56,10
+    CONTROL         "",IDC_FM_OTHER,"Button",BS_AUTORADIOBUTTON,270,169,14,10
+    EDITTEXT        IDC_FM_OTHER_V,282,167,36,14,ES_AUTOHSCROLL
+    LTEXT           "Mass (g)",IDC_STATIC,335,33,28,8
+    CONTROL         "kilo (3)",IDC_FG_KILO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,335,49,56,10
+    CONTROL         "gram",IDC_FG,"Button",BS_AUTORADIOBUTTON,335,71,56,10
+    CONTROL         "mili (-3)",IDC_FG_MILI,"Button",BS_AUTORADIOBUTTON,335,89,56,10
+    CONTROL         "micro (-6)",IDC_FG_MICRO,"Button",BS_AUTORADIOBUTTON,335,108,56,10
+    CONTROL         "nano (-9)",IDC_FG_NANO,"Button",BS_AUTORADIOBUTTON,335,129,56,10
+    CONTROL         "pico (-12)",IDC_FG_PICO,"Button",BS_AUTORADIOBUTTON,335,148,56,10
+    CONTROL         "",IDC_FG_OTHER,"Button",BS_AUTORADIOBUTTON,335,169,14,10
+    EDITTEXT        IDC_FG_OTHER_V,347,167,36,14,ES_AUTOHSCROLL
+    LTEXT           "Velocity (s)",IDC_STATIC,403,33,36,8
+    CONTROL         "second",IDC_FS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,403,49,56,10
+    CONTROL         "mili (-3)",IDC_FS_MILI,"Button",BS_AUTORADIOBUTTON,403,71,56,10
+    CONTROL         "micro (-6)",IDC_FS_MICRO,"Button",BS_AUTORADIOBUTTON,403,89,56,10
+    CONTROL         "",IDC_FS_OTHER,"Button",BS_AUTORADIOBUTTON,403,108,14,10
+    EDITTEXT        IDC_FS_OTHER_V,415,105,36,14,ES_AUTOHSCROLL
+    LTEXT           "Length (m)",IDC_STATIC,488,31,36,8
+    CONTROL         "meter",IDC_TM,"Button",BS_AUTORADIOBUTTON | WS_GROUP,488,49,56,10
+    CONTROL         "centi (-2)",IDC_TM_CENTI,"Button",BS_AUTORADIOBUTTON,488,68,56,10
+    CONTROL         "mili (-3)",IDC_TM_MILI,"Button",BS_AUTORADIOBUTTON,488,89,56,10
+    CONTROL         "micro (-6)",IDC_TM_MICRO,"Button",BS_AUTORADIOBUTTON,488,108,56,10
+    CONTROL         "nano (-9)",IDC_TM_NANO,"Button",BS_AUTORADIOBUTTON,488,127,56,10
+    CONTROL         "pico (-12)",IDC_TM_PICO,"Button",BS_AUTORADIOBUTTON,488,145,56,10
+    CONTROL         "",IDC_TM_OTHER,"Button",BS_AUTORADIOBUTTON,488,167,14,10
+    EDITTEXT        IDC_TM_OTHER_V,500,164,36,14,ES_AUTOHSCROLL
+    LTEXT           "Mass (g)",IDC_STATIC,553,31,28,8
+    CONTROL         "kilo (3)",IDC_TG_KILO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,553,49,56,10
+    CONTROL         "gram",IDC_TG,"Button",BS_AUTORADIOBUTTON,553,68,56,10
+    CONTROL         "mili (-3)",IDC_TG_MILI,"Button",BS_AUTORADIOBUTTON,553,89,56,10
+    CONTROL         "micro (-6)",IDC_TG_MICRO,"Button",BS_AUTORADIOBUTTON,553,108,56,10
+    CONTROL         "nano (-9)",IDC_TG_NANO,"Button",BS_AUTORADIOBUTTON,553,127,56,10
+    CONTROL         "pico (-12)",IDC_TG_PICO,"Button",BS_AUTORADIOBUTTON,553,145,56,10
+    CONTROL         "",IDC_TG_OTHER,"Button",BS_AUTORADIOBUTTON,553,167,14,10
+    EDITTEXT        IDC_TG_OTHER_V,565,164,36,14,ES_AUTOHSCROLL
+    LTEXT           "Velocity (s)",IDC_STATIC,621,31,36,8
+    CONTROL         "second",IDC_TS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,621,49,56,10
+    CONTROL         "mili (-3)",IDC_TS_MILI,"Button",BS_AUTORADIOBUTTON,621,68,56,10
+    CONTROL         "micro (-6)",IDC_TS_MICRO,"Button",BS_AUTORADIOBUTTON,621,89,56,10
+    CONTROL         "",IDC_TS_OTHER,"Button",BS_AUTORADIOBUTTON,621,108,14,10
+    EDITTEXT        IDC_TS_OTHER_V,633,105,36,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Calculate",ID_TRANS_CALC,16,256,50,14
+    DEFPUSHBUTTON   "Transform",ID_TRANS_TRANS,88,256,50,14
+    PUSHBUTTON      "Close",ID_TRANS_CLOSE,299,256,50,14
+    LTEXT           "Rho:",IDC_STATIC,16,31,16,8
+    LTEXT           "D:",IDC_STATIC,16,70,8,8
+    LTEXT           "u:",IDC_STATIC,16,111,8,8
+    LTEXT           "Ny:",IDC_STATIC,16,130,12,8
+    LTEXT           "m:",IDC_STATIC,15,208,9,8
+    LTEXT           "G:",IDC_STATIC,16,170,8,8
+    EDITTEXT        IDC_OUT_RHO,147,27,93,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_OUT_D,147,66,93,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_OUT_U,147,107,93,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_OUT_M,147,204,93,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_OUT_G,147,166,93,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "In",IDC_STATIC,65,13,8,8
+    LTEXT           "Out",IDC_STATIC,165,13,13,8
+    GROUPBOX        "From",IDC_STATIC,257,15,202,177
+    GROUPBOX        "To",IDC_STATIC,475,12,202,177
+    EDITTEXT        IDC_IN_MU,43,46,95,14,ES_AUTOHSCROLL
+    LTEXT           "mu:",IDC_STATIC,16,51,13,8
+    EDITTEXT        IDC_OUT_MU,147,46,93,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Get",ID_TRANS_GET,159,256,50,14
+    PUSHBUTTON      "Set",ID_TRANS_SET,229,256,50,14
+    EDITTEXT        IDC_IN_L,43,86,95,14,ES_AUTOHSCROLL
+    LTEXT           "L:",IDC_STATIC,15,89,8,8
+    EDITTEXT        IDC_OUT_L,147,86,93,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_IN_R,43,185,95,14,ES_AUTOHSCROLL
+    LTEXT           "r:",IDC_STATIC,15,190,8,8
+    EDITTEXT        IDC_OUT_R,147,185,93,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_IN_NX,43,145,95,14,ES_AUTOHSCROLL
+    LTEXT           "Nx:",IDC_STATIC,15,148,12,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_TRANS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 688
+        VERTGUIDE, 16
+        VERTGUIDE, 43
+        VERTGUIDE, 94
+        VERTGUIDE, 138
+        VERTGUIDE, 159
+        VERTGUIDE, 190
+        VERTGUIDE, 240
+        VERTGUIDE, 255
+        VERTGUIDE, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+        HORZGUIDE, 21
+        HORZGUIDE, 39
+        HORZGUIDE, 58
+        HORZGUIDE, 79
+        HORZGUIDE, 98
+        HORZGUIDE, 116
+        HORZGUIDE, 136
+        HORZGUIDE, 156
+        HORZGUIDE, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+AAA                     ICON                    "H.ico"
+#endif    // Croatian (Croatia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BEGIN_NEW DIALOGEX 0, 0, 513, 301
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_SIZEX,52,19,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIZEY,90,19,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXT_X,62,51,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXT_Y,98,51,32,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_V,62,68,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COUNT_X,68,106,27,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COUNT_Y,101,106,27,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RADIUS,68,122,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MASS,68,152,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V_MAX_PF,82,169,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NAME,186,16,72,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_A_DENSITY,338,217,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DT,189,158,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PRINT,60,205,38,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STOP,189,192,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SAVE_STEP,60,221,38,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SHOW,60,253,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BMP_STEP,60,237,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_T,175,226,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DPD_GAMMA,203,55,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DPD_SIGMA,203,71,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DPD_RC,203,87,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DPD_P,203,103,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DPD_A,203,119,41,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "START",IDC_START,15,279,60,17
+    PUSHBUTTON      "RESUME",IDC_RESUME,86,279,60,17
+    PUSHBUTTON      "LOAD",IDC_LOAD,229,279,60,17
+    PUSHBUTTON      "SAVE",IDC_SAVE,301,279,60,17
+    LTEXT           "Size (x, y):",IDC_STATIC,15,21,36,9
+    GROUPBOX        "AREA",IDC_STATIC,5,5,130,81
+    LTEXT           "Acc. G (x,y):",IDC_STATIC,16,53,41,9
+    GROUPBOX        "ANALYSIS",IDC_STATIC,273,206,115,62
+    LTEXT           "Density:",IDC_STATIC,283,219,36,9
+    LTEXT           "Max velocity:",IDC_STATIC,15,70,43,9
+    GROUPBOX        "RUN",IDC_STATIC,141,147,125,101
+    GROUPBOX        "PARTICLES",IDC_STATIC,5,91,131,95
+    LTEXT           "Count (X * Y):",IDC_STATIC,15,108,45,9
+    LTEXT           "Radius:",IDC_STATIC,16,124,36,9
+    LTEXT           "Mass:",IDC_STATIC,16,154,36,9
+    LTEXT           "dt:",IDC_STATIC,151,161,36,9
+    LTEXT           "Stop time:",IDC_STATIC,151,194,36,9
+    LTEXT           "Show step:",IDC_STATIC,18,255,36,9
+    GROUPBOX        "FILES",IDC_STATIC,141,5,125,28
+    LTEXT           "Sim name:",IDC_STATIC,149,18,35,9
+    LTEXT           "Print step:",IDC_STATIC,18,206,32,9
+    LTEXT           "Save step:",IDC_STATIC,18,223,35,9
+    GROUPBOX        "DPD",IDC_STATIC,141,42,125,96
+    LTEXT           "sigma (FR):",IDC_STATIC,151,74,40,9
+    LTEXT           "gamma (FD):",IDC_STATIC,151,58,46,9
+    LTEXT           "rc:",IDC_STATIC,151,90,28,9
+    LTEXT           "p:",IDC_STATIC,151,106,28,9
+    LTEXT           "a (FC):",IDC_STATIC,151,121,28,9
+    LTEXT           "Time:",IDC_STATIC,151,228,19,9
+    LTEXT           "Max x speed of PF:",IDC_STATIC,16,171,63,9
+    LTEXT           "Bmp step:",IDC_STATIC,18,239,36,9
+    EDITTEXT        IDC_A_STEP_ANL,338,233,41,12,ES_AUTOHSCROLL
+    LTEXT           "Step analysis:",IDC_STATIC,283,235,54,9
+    GROUPBOX        "PLATELETS",IDC_GROUP_PL,273,5,117,192
+    EDITTEXT        IDC_PL_N,321,36,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "amount:",IDC_STATIC,287,38,27,9
+    EDITTEXT        IDC_PL_DC,321,52,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "dc (rc):",IDC_STATIC,287,54,27,9
+    CONTROL         "Enabled",IDC_PL_ENABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,20,76,10
+    EDITTEXT        IDC_PL_DD,321,67,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "dd (rc):",IDC_STATIC,287,69,27,9
+    EDITTEXT        IDC_PREP_AREA_X,101,35,28,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_A_STEP_CLOT,338,249,41,12,ES_AUTOHSCROLL
+    LTEXT           "Step clot:",IDC_STATIC,283,251,54,9
+    PUSHBUTTON      "INIT",IDC_INIT,158,279,60,17
+    CONTROL         "Constant inflow",IDC_PL_INFLOW,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,287,88,76,10
+    CONTROL         "Enabled",IDC_FAC_ENABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,412,18,76,10
+    EDITTEXT        IDC_FAC_DX,450,31,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "dx:",IDC_STATIC,436,33,11,9
+    EDITTEXT        IDC_FAC_DT,450,46,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "dt:",IDC_STATIC,436,48,11,9
+    EDITTEXT        IDC_FAC_ALPHA1,450,108,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "alpha1:",IDC_STATIC,424,110,24,9
+	EDITTEXT        IDC_FAC_ALPHA3,450,109,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "alpha3:",IDC_STATIC,424,110,24,9
+	EDITTEXT        IDC_FAC_ALPHA4,450,107,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "alpha4:",IDC_STATIC,424,110,24,9
+	EDITTEXT        IDC_FAC_BETA1,450,108,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "beta1:",IDC_STATIC,424,110,24,9
+	EDITTEXT        IDC_FAC_BETA2,450,105,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "beta2:",IDC_STATIC,424,110,24,9
+	EDITTEXT        IDC_FAC_BETA3,450,106,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "beta3:",IDC_STATIC,424,110,24,9
+    EDITTEXT        IDC_FAC_W_BEG,450,62,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "wound beg:",IDC_STATIC,408,64,40,9
+    EDITTEXT        IDC_FAC_W_END,450,77,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "wound end:",IDC_STATIC,408,79,40,9
+    EDITTEXT        IDC_FAC_W_VAL,450,93,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "wound val:",IDC_STATIC,410,95,40,9
+    EDITTEXT        IDC_EXC,190,209,37,12,ES_AUTOHSCROLL
+    LTEXT           "PDE dTau:",IDC_STATIC,151,211,37,9
+    EDITTEXT        IDC_DT2,189,175,37,12,ES_AUTOHSCROLL
+    LTEXT           "dt plat:",IDC_STATIC,151,178,36,9
+    EDITTEXT        IDC_FAC_ALPHA2,450,123,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "alpha2:",IDC_STATIC,423,125,25,9
+    EDITTEXT        IDC_FAC_K1,450,153,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "k1:",IDC_STATIC,436,155,12,9
+    EDITTEXT        IDC_FAC_K3,450,169,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "k3:",IDC_STATIC,436,171,12,9
+    EDITTEXT        IDC_FAC_C0,450,186,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "C0:",IDC_STATIC,436,188,12,9
+    EDITTEXT        IDC_PL_FT,321,166,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "time:",IDC_STATIC,289,167,21,9
+    LTEXT           "F strong:",IDC_STATIC,289,136,31,9
+    EDITTEXT        IDC_PL_FSTRONG,321,134,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_PL_FWEAK,321,118,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "F weak:",IDC_STATIC,289,120,28,9
+    LTEXT           "Forces:",IDC_STATIC,279,105,35,9
+    CONTROL         "Generation area - size:",IDC_PREP_AREA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,37,81,10
+    GROUPBOX        "Output",IDC_STATIC,5,192,131,80
+    EDITTEXT        IDC_PL_U,321,181,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "fib crit:",IDC_STATIC,289,183,21,9
+    EDITTEXT        IDC_RADIUS_SHOW,68,137,41,12,ES_AUTOHSCROLL
+    LTEXT           "Radius (show):",IDC_STATIC,16,139,49,9
+    LTEXT           "F fib:",IDC_STATIC,289,152,31,9
+    EDITTEXT        IDC_PL_FFIB,321,150,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FAC_T0,450,203,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "T0:",IDC_STATIC,436,205,12,9
+	EDITTEXT        IDC_FAC_GAMMA1,450,138,41,12,ES_AUTOHSCROLL | WS_DISABLED
+	EDITTEXT        IDC_FAC_GAMMA2,450,138,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FAC_GAMMA3,450,138,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "gamma:",IDC_STATIC,421,140,25,9
+    GROUPBOX        "FACTORS",IDC_GROUP_PL2,398,5,102,233
+    EDITTEXT        IDC_FAC_INIT_FG,450,220,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "init Fg:",IDC_STATIC,426,222,22,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_BEGIN_NEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 505
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 296
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+CG_IDR_POPUP_FRAME MENU
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Open...",                     ID_FILE_OPEN
+        MENUITEM "Refresh",                     ID_FILE_REFRESH
+        MENUITEM "Save as...",                  ID_FILE_SAVE_AS
+    END
+END
+
+IDR_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "DPD",                         ID_FILE_DPD
+        MENUITEM "PDE",                         ID_FILE_PDE
+        MENUITEM "Exit",                        ID_APP_EXIT
+    END
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Measurement units",           ID_TOOLS_UNITS
+        MENUITEM "Options",                     ID_TOOLS_OPTIONS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "\nBegin"
+    ID_FILE_OPEN            "\nOpen"
+    ID_FILE_SAVE            "\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_SELECT          "\nZoom"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_CONSTRUCTION    "\nCostomaize of 3D viewer"
+    ID_FILE_REFRESH         "Refresh file"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_CHECK1              "Javnaja ili nejavnaja raznostnaja sxema."
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_RESET           "\nDefault paint"
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROGRESS DIALOGEX 0, 0, 300, 30
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH,6,16,287,7
+    LTEXT           "Static",IDC_DESC,6,4,287,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 23
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPT DIALOGEX 0, 0, 251, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Properties"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_OPT_OK,130,106,50,14
+    PUSHBUTTON      "Cancel",ID_OPT_CANCEL,194,106,50,14
+    EDITTEXT        IDC_OPT_TEXT_SIZE,49,7,40,14,ES_AUTOHSCROLL
+    LTEXT           "Text size:",IDC_STATIC,8,10,32,8
+    EDITTEXT        IDC_OPT_THREADS,49,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "Threads:",IDC_STATIC,8,44,30,8
+    EDITTEXT        IDC_OPT_TEXT_SPACE,49,24,40,14,ES_AUTOHSCROLL
+    LTEXT           "Text space:",IDC_STATIC,8,27,39,8
+    CONTROL         "",IDC_OPT_COLPLA,"MfcButton",WS_TABSTOP,188,18,50,14
+    CONTROL         "",IDC_OPT_COLPLT,"MfcButton",WS_TABSTOP,188,34,50,14
+    CONTROL         "",IDC_OPT_COLFIB,"MfcButton",WS_TABSTOP,188,50,50,14
+    CONTROL         "Plasma",IDC_OPT_PLA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,131,20,38,10
+    CONTROL         "Platelets",IDC_OPT_PLT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,131,36,43,10
+    CONTROL         "Fibrin p.",IDC_OPT_FIB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,131,52,42,10
+    GROUPBOX        "Show",IDC_STATIC,121,7,123,95
+    CONTROL         "",IDC_OPT_COLF1,"MfcButton",WS_TABSTOP,188,66,50,14
+    CONTROL         "Weak con.",IDC_OPT_F1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,131,68,50,10
+    CONTROL         "",IDC_OPT_COLF2,"MfcButton",WS_TABSTOP,188,82,50,14
+    CONTROL         "Middle con.",IDC_OPT_F2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,131,84,52,10
+    EDITTEXT        IDC_OPT_IMGW,50,60,40,14,ES_AUTOHSCROLL
+    LTEXT           "Img W (px):",IDC_STATIC,8,63,40,8
+    EDITTEXT        IDC_OPT_OUTPUT,50,79,40,14,ES_AUTOHSCROLL
+    LTEXT           "Output:",IDC_STATIC,8,81,26,8
+    DEFPUSHBUTTON   "Browse",ID_OPT_BROWSE,42,106,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OPT DLGINIT
+BEGIN
+    IDC_OPT_COLPLA, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    IDC_OPT_COLPLT, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    IDC_OPT_COLFIB, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    IDC_OPT_COLF1, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    IDC_OPT_COLF2, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    0
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
